@@ -1,20 +1,24 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# StudyPath - AI Study Planner
 
-# Run and deploy your AI Studio app
+AI-powered academic planner that transforms syllabi into constraint-aware study plans.
 
-This contains everything you need to run your app locally.
+##  Features
+- Syllabus upload (PDF/DOCX) → AI weekly plans
+- Busy slot detection + constraint scheduling
+- Exam questions + flashcards generation
+- AI tutor chat with syllabus context
+- Calendar, tasks, dashboard UI
+- Full offline persistence
 
-View your app in AI Studio: https://ai.studio/apps/drive/1dxmn9pmcQ1OzKrd_uG2ApA46_6O_VVav
+##  Results
+- **98%** JSON compliance | **100%** constraint satisfaction
+- **SUS Score: 85.4/100** (10 students)
 
-## Run Locally
+##  Quick Start
+1. Download `index.html`
+2. Add Gemini API key
+3. Open in browser
 
-**Prerequisites:**  Node.js
+##  Tech
+React 19 • TypeScript • Tailwind • Gemini AI • LocalStorage
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`

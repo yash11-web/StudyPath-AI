@@ -1,0 +1,5 @@
+{
+  "name": "StudyPathAI",
+  "description": "An AI-powered smart study planner that converts syllabi into structured weekly plans with actionable tasks and resource links.",
+  "requestFramePermissions": []
+}
